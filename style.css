@@ -21,7 +21,7 @@ body{
 	display: flex;
 	align-items: center;
 	justify-content: start;
-	width: 45%;
+	width: 55%;
 	height: 100vh;
 }
 
@@ -129,4 +129,35 @@ body{
 .app-download: nth-child(2) {
     background-image: url('googleplay-button.png');
 }
+
+/* media queries */
+
+@media (max-width: 1024px){
+	.instagram-wrapper{
+		width: 90%;
+
+	}
+}
+
+@media (max-width: 650px){
+	body{
+		background-color: white;
+	}
+
+	.instagram-wrapper{
+		width: 90%
+	}
+
+	.instagram-phone{
+		display: none;
+	}
+	.instagram-continue{
+		width: 100%;
+	}
+
+	.group{
+		border: 1px solid transparent;
+	}
+}
+
 
